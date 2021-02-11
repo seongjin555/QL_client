@@ -1,0 +1,157 @@
+.mediaViewInfo {
+	--web-view-name: 1;
+	--web-view-id: ID1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes  {
+
+
+}
+#ID1 {
+	position: absolute;
+	width: 1280px;
+	height: 1024px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 1s ease-out;
+	--web-action-type: page;
+	--web-action-target: 2.html;
+	cursor: pointer;
+	--web-view-name: 1;
+	--web-view-id: ID1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+#Light__Button3_ContainedA_Text {
+	position: absolute;
+	width: 830px;
+	height: 145px;
+	left: 225px;
+	top: 375px;
+	overflow: visible;
+}
+#Container {
+	position: absolute;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Light_Elevation02dp {
+	position: absolute;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Shadow {
+	mix-blend-mode: multiply;
+	position: absolute;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_o {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_o {
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.141));
+	position: absolute;
+	overflow: visible;
+	width: 836px;
+	height: 151px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_o {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_o {
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.141));
+	position: absolute;
+	overflow: visible;
+	width: 836px;
+	height: 151px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_o {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_o {
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.141));
+	position: absolute;
+	overflow: visible;
+	width: 836px;
+	height: 151px;
+	left: 0px;
+	top: 0px;
+}
+#__Color {
+	fill: rgba(98,0,238,1);
+}
+.__Color {
+	position: absolute;
+	overflow: visible;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+}
+#_States {
+	position: absolute;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#StatesLight_Primary_Container_ {
+	fill: rgba(255,255,255,0);
+}
+.StatesLight_Primary_Container_ {
+	position: absolute;
+	overflow: visible;
+	width: 830px;
+	height: 145px;
+	left: 0px;
+	top: 0px;
+}
+#__Label {
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 799px;
+	white-space: nowrap;
+	line-height: 120px;
+	margin-top: -11.5px;
+	text-align: center;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 97px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.89px;
+	text-transform: uppercase;
+}

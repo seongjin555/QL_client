@@ -1,17 +1,19 @@
 import gql from "graphql-tag";
 
-export const HOME_PAGE = gql`
+export const car_all = gql`
   {
-    movies(limit: 50, rating: 7) {
-      id
-      title
-      rating
-      medium_cover_image
-    }
+  car_table_all{
+    car_id
+    car_number
+    ent_time
+    ext_time
+    ent_weight
+    ext_weight
+	  }
   }
 `;
 
-export const MOVIE_DETAILS = gql`
+export const car_img = gql`
   query getMovieDetails($movieId: Int!) {
     movie(id: $movieId) {
       medium_cover_image
