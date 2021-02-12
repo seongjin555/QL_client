@@ -28,7 +28,7 @@
 	overflow: hidden;
 	--web-animation: fadein 1s ease-out;
 	--web-action-type: page;
-	--web-action-target: 2.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	--web-view-name: 1;
 	--web-view-id: ID1;

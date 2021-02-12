@@ -4,8 +4,8 @@ import { useQuery } from "react-apollo-hooks";
 
 export default () => {
   const { data } = useQuery(car_all);
-  console.log(data)
-  if(data && data.car_table_all){
+  if(data){
+    console.log(data.car_table_all)
+    return <span> {data.car_table_all} </span>
   }
-  return <h1> hello wolrd</h1>
 }

@@ -11,9 +11,7 @@ class App extends Component {
       <ApolloProvider client={client}>
         <ApolloHooksProvider client={client}>
           <Router>
-            <main>
               <Route exact={true} path={"/"} component={Home} />
-            </main>
           </Router>
         </ApolloHooksProvider>
       </ApolloProvider>
