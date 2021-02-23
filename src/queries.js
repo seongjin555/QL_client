@@ -7,6 +7,7 @@ export const car_all = gql`
     car_number
     time
     weight
+    car_img
 	  }
   }
 `;

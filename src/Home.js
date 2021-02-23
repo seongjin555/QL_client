@@ -8,6 +8,12 @@ const Home = () => {
   if (!loading && !error && data) {
     return (
       <div>
+        <div id="Image_placeholder__small" class="Image_placeholder___small">
+          <img class="shape" src={data.car_table_all[0].car_img} alt="ent_car_img"/>
+        </div>
+        <div id="Image_placeholder__small_z" class="Image_placeholder___small">
+          <img class="shape" src={data.car_table_all[0].car_img} alt="ext_car_img"/>
+        </div>
         <div id="_1024_kg">
           <span>중량: {data.car_table_all[0].weight}Kg</span>
         </div>
